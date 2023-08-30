@@ -56,7 +56,7 @@ class Cyclotron {
         }
     }
 
-    accelerating(particle_type: string): string {
+    public accelerating(particle_type: string): string {
         this.validate_matrix();
 
         if (!Cyclotron.PARTICLE_CODES.hasOwnProperty(particle_type)) {
