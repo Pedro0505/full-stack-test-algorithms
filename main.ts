@@ -76,7 +76,7 @@ function main(): void {
     });
 
     rl.question("Type the matrix size to the cyclotron: ", (matrixSizeInput) => {
-        const matrix_size: number = parseInt(matrixSizeInput, 10);
+        const matrix_size: number = Number(matrixSizeInput);
 
         rl.question("Type the particle: ", (particleType) => {
             const cyclotron = new Cyclotron(matrix_size);
