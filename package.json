@@ -1,0 +1,17 @@
+{
+  "name": "fullstack-test-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run:cyclotron": "ts-node main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
